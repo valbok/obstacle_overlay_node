@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>obstacle_overlay_node</name>
+  <version>0.1.0</version>
+  <description>Visual Debug Utilities for RViz</description>
+  <maintainer email="valbok@gmail.com">Val Doroshchuk</maintainer>
+  <license>open-source</license>
+  <author email="valbok@gmail.com">Val Doroshchuk</author>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <depend>libogre-dev</depend>
+  <depend>image_transport</depend>
+</package>
